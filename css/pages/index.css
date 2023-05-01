@@ -1,0 +1,25 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.form-container > div {
+  display: flex;
+  justify-content: space-between;
+  /* Coloca "a los hijos" en los extremos y el espacio en el medio */
+  /* > solo los hijos directos */
+}
+
+.sec-messages {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.contenedorPeliculas {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}

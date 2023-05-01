@@ -1,0 +1,22 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.input-div-container {
+  display: flex;
+  flex-direction: column;
+}
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.botones button {
+  background-color: rgb(28, 98, 83);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
