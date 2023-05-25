@@ -12,10 +12,15 @@
 
 <body>
   <header>
-    <h1>
-      <!--Titulo Cabecera-->
-      <span>Cartelera de Cine</span>
-    </h1>
+    <img href="img/FondoCine5.jpg" alt="">
+    <div class="cabecera">
+      <img href="img/IconoCine.png" alt="">
+      <h1>
+        <!--Titulo Cabecera-->
+        <span>Cartelera de Cine</span>
+      </h1>
+    </div>
+
     <nav>
       <!--Menu Superior-->
       <ul>
@@ -30,50 +35,92 @@
     <h2>Últimas Películas en Cartelera</h2>
     <section id="form-movie-new">
       <!--Seccion para agregar una palicula favorita por codigo-->
+      <p>Agregar Película Favorita por Código:</p>
       <form action="" class="form-container">
         <div>
-          <label for="codigo">código:</label>
           <input type="text" name="codigo" />
         </div>
-        <div>
-          <label for="titulo">título:</label>
-          <input type="text" name="titulo" />
-        </div>
-        <div>
-          <label for="idioma">idioma:</label>
-          <input type="text" name="idioma" />
-        </div>
-        <div>
-          <label for="año">año:</label>
-          <input type="text" name="año" />
-        </div>
-        <button type="submit">Agregar a favoritos</button>
+        <button type="submit">Agregar</button>
       </form>
     </section>
-    <section id="sec-messages" class="sec-messages">
-      <!--Seccion para mensajes-->
+    <!-- <section id="sec-messages" class="sec-messages">
+      No muestra en los mockups como debe visualizarse
+       Seccion para mensajes
       <h4>Mensajes:</h4>
       <p>Película agregada con éxito</p>
       <p>Error: La Película seleccionada no se encuentra en la API o se produjo un error al consultar</p>
       <p>La Película ingresada ya se encuentra almacenada</p>
-    </section>
+    </section> -->
+
     <section id="sec_peliculas">
       <!--Seccion visualizacion de peliculas-->
       <div class="contenedorPeliculas" id="contenedorPeliculas">
-        <h3>Creed 3</h3>
-        <img src="https://image.tmdb.org/t/p/w500//fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" alt="creed 3">
-        <p>
-          Codigo: 677179
-        </p>
-        <p>
-          Título original: Creed III
-        </p>
-        <p>Idioma original: en</p>
-        <p>
-          Resumen: Adonis Creed, aún dominando el mundo del boxeo, prospera en su carrera y en su vida familiar, pero un
-          amigo de la infancia y antiguo prodigio del boxeo reaparece tras salir de la cárcel y está ansioso por
-          demostrar que merece otra oportunidad.
-        </p>
+        <div class="contenedorPoster">
+          <img src="https://image.tmdb.org/t/p/w500//fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" alt="creed 3">
+          <h3>Creed 3</h3>
+          <p>
+            <b>Codigo:</b> 677179
+          </p>
+          <p>
+            <b>Título original:</b> Creed III
+          </p>
+          <p><b>Idioma original:</b> en</p>
+          <p><b>Año:</b> 2023-04-05</p>
+          <button class="button radius">
+            <span>Agregar a Favoritos</span>
+          </button>
+
+        </div>
+        <div class="contenedorPoster">
+          <img src="https://image.tmdb.org/t/p/w500//fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" alt="creed 3">
+          <h3>Creed 3</h3>
+          <p>
+            <b>Codigo:</b> 677179
+          </p>
+          <p>
+            <b>Título original:</b> Creed III
+          </p>
+          <p><b>Idioma original:</b> en</p>
+          <p><b>Año:</b> 2023-04-05</p>
+          <button class="button radius">
+            <span>Agregar a Favoritos</span>
+          </button>
+
+        </div>
+        <div class="contenedorPoster">
+          <img src="https://image.tmdb.org/t/p/w500//fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" alt="creed 3">
+          <h3>Creed 3</h3>
+          <p>
+            <b>Codigo:</b> 677179
+          </p>
+          <p>
+            <b>Título original:</b> Creed III
+          </p>
+          <p><b>Idioma original:</b> en</p>
+          <p><b>Año:</b> 2023-04-05</p>
+          <button class="button radius">
+            <span>Agregar a Favoritos</span>
+          </button>
+
+        </div>
+        <div class="contenedorPoster">
+          <img src="https://image.tmdb.org/t/p/w500//fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" alt="creed 3">
+          <h3>Creed 3</h3>
+          <p>
+            <b>Codigo:</b> 677179
+          </p>
+          <p>
+            <b>Título original:</b> Creed III
+          </p>
+          <p><b>Idioma original:</b> en</p>
+          <p><b>Año:</b> 2023-04-05</p>
+          <button class="button radius">
+            <span>Agregar a Favoritos</span>
+          </button>
+
+        </div>
+
+
       </div>
     </section>
     <section id="sec_paginador_peliculas">
@@ -86,7 +133,7 @@
 
   </main>
   <footer>
-    <p>Desarrollado por grupo 8 - com6 - Lab2</p>
+    <p>Desarrollado por Cintia Avendaño - com6 - Lab2</p>
   </footer>
 </body>
 

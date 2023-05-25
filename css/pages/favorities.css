@@ -1,0 +1,36 @@
+.contenedorPeliculasFavoritas {
+  width: 100%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contenedorPosterFav {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contenedorImg {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.contenedorImg > img {
+  width: 50%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.contenedorPosterFav > h3 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contenedorPosterFav > p {
+  color: var(--color-active);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0%;
+  margin: 0;
+  font-size: 12px;
+}
