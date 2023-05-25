@@ -38,6 +38,8 @@
 
 .contenedorPoster > img {
   width: 100%;
+  height: 300px;
+  object-fit: cover; /* cubre el contenido */
   border-radius: 15px;
   margin-bottom: 10px;
 }
@@ -45,9 +47,12 @@
   font-size: 16px;
   font-weight: 600;
   text-align: center;
+  height: 50px;
 }
-
-.contenedorPoster > p {
+.datosPelicula {
+  height: 100px;
+}
+.contenedorPoster p {
   color: var(--color-active);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 0%;
