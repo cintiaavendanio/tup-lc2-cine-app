@@ -50,19 +50,20 @@
       <form action="" class="form-container">
         <div class="input-div-container">
           <label for="nombre"> <b>nombre:</b> </label>
-          <input type="text" name="nombre" id="">
+          <input type="text" name="nombre" id="nombre">
         </div>
         <div class="input-div-container">
           <label for="email"><b>email:</b></label>
-          <input type="text" name="" email id="">
+          <input type="text" name="email" email id="email">
         </div>
         <div class="input-div-container"><label for="mensaje"><b>mensaje:</b></label>
-          <textarea name="mensaje" id="" cols="30" rows="8"></textarea>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="8"></textarea>
         </div>
         <div class="botones">
-          <button type="submit" class="btn-green">Limpiar</button>
-          <button type="submit" class="btn-green">Enviar</button>
+          <button type="submit" class="btn-green" onclick="limpiar(event)">Limpiar</button>
+          <button type="submit" class="btn-green" onclick="enviarMail(event)">Enviar</button>
         </div>
+        <p style="display: none;" id="mensajeExito">Su mensaje fue enviado</p>
       </form>
       <form>
       </form>
@@ -76,5 +77,6 @@
     <p>Desarrollado por Cintia Avendaño - com6 - Lab2</p>
   </footer>
 </body>
+<script src="js/pages/help.js"></script>
 
 </html>
